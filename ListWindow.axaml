@@ -1,0 +1,169 @@
+<Window 
+	xmlns="https://github.com/avaloniaui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+	x:Class="demo_tab_21_11_2024.ListWindow"
+	x:CompileBindings="False"
+	Title="ListWindow">
+	<Grid
+		ShowGridLines="true"
+		RowDefinitions="auto,auto,auto,*"
+		ColumnDefinitions="*,*,*,*">
+		<StackPanel
+			Grid.Column="4" HorizontalAlignment="Right">
+
+			<TextBlock
+				Name="tblock_username"/>
+			<TextBlock
+				Name="tblock_role"
+				HorizontalAlignment="Right"/>
+		</StackPanel>
+		<Button
+			Name="btn_back"
+			Content="Выйти"
+			Grid.Column="3"
+			HorizontalAlignment="Right"
+			VerticalAlignment="Bottom"
+			Grid.RowSpan="2"
+			Background="rgb(73, 140,81)"
+			Click="Return"/>
+		<Button
+			Name="btn_add"
+			Content="Добавить товар"
+			Grid.Column="3"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Bottom"
+			Grid.RowSpan="2"
+			Background="rgb(73, 140,81)"
+			Click="AddProduct"/>
+		<Button
+			Name="btn_openCart"
+			Content="В корзину"
+			Background="rgb(73, 140,81)"
+			Grid.Column="2"
+			IsVisible="False"
+			Click="OpenCart"/>
+		
+		<TextBox
+			Grid.Row="1"
+			Name="tbox_searchbar" Grid.ColumnSpan="2"
+			Watermark="Найти..."
+			KeyUp="Searchbar"/>
+		<StackPanel
+			Grid.Column="2"
+			Grid.Row="1" Orientation="Horizontal">
+			<ComboBox
+				Name="cbox_filtration"
+				SelectionChanged="ComboBox_SelectionChangedFiltration">
+				<ComboBoxItem Content="Все диапазоны"/>
+				<ComboBoxItem Content="Скидка менее 10%"/>
+				<ComboBoxItem Content="Скидка от 10% до 15%"/>
+				<ComboBoxItem Content="Скидка более 15%"/>
+			</ComboBox>
+			<ComboBox
+				Name="cbox_sorting"
+				SelectionChanged="ComboBox_SelectionChangedSorting">
+				<ComboBoxItem Content="По умолчанию"/>
+				<ComboBoxItem Content="По возрастанию стоимости"/>
+				<ComboBoxItem Content="По убыванию стоимости"/>
+			</ComboBox>
+		</StackPanel>
+		
+		<TextBlock
+			Name="tblock_itemsCount"
+			Grid.Row="2" Grid.ColumnSpan="4"
+			HorizontalAlignment="Center"/>
+		
+		<ListBox
+			Name="listbox_products"
+			Grid.ColumnSpan="4"
+			Grid.Row="3"
+			Background="rgb(118, 227, 131)">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<Panel
+						Height="150"
+						DoubleTapped="Panel_DoubleTapped"
+						PointerPressed="Panel_PointerPressed">
+						<FlyoutBase.AttachedFlyout>
+							<Flyout>
+								<Button
+									Name="btn_cart"
+									Click="AddToCart"
+									Content="Добавить к заказу"/>
+							</Flyout>
+						</FlyoutBase.AttachedFlyout>
+						<Grid
+							ShowGridLines="False"
+							ColumnDefinitions="*,*,*,*"
+							Background="{Binding Background}">
+							<TextBlock
+								Text="{Binding Id}"/>
+							<Image
+								Height="100"
+								Source="{Binding ProductImage}"/>
+							<StackPanel
+								Margin="15"
+								Grid.Column="1"
+								HorizontalAlignment="Center"
+								VerticalAlignment="Center">
+								<TextBlock
+									Text="{Binding Name}"
+									Margin="0 0 0 10"/>
+								<TextBlock
+									Text="{Binding Description}"
+									TextWrapping="WrapWithOverflow"
+									Margin="0 0 0 10"/>
+								<StackPanel Orientation="Horizontal">
+									<TextBlock
+										Text="Производитель: "/>
+									<TextBlock
+										Text="{Binding ManufacturerNavigation.Name}"/>
+								</StackPanel>
+								
+							</StackPanel>
+							<StackPanel
+								Orientation="Horizontal"
+								Grid.Column="2"
+								HorizontalAlignment="Center"
+								VerticalAlignment="Center">
+								<TextBlock
+									Text="{Binding ActualDiscount}"/>
+								<TextBlock
+									Text="%"/>
+							</StackPanel>
+
+							<StackPanel
+								Grid.Column="3"
+								HorizontalAlignment="Center"
+								VerticalAlignment="Center">
+								<StackPanel
+									Orientation="Horizontal">
+									<TextBlock
+										Text="{Binding ActualPrice}"/>
+									<TextBlock
+										Text=" руб."/>
+								</StackPanel>
+								<StackPanel
+									Orientation="Horizontal"
+									IsVisible="{Binding IsDiscounted}">
+
+									<TextBlock
+										Text="{Binding Cost}"
+										
+										TextDecorations="Strikethrough"/>
+									<TextBlock
+										Text=" руб."/>
+								</StackPanel>
+								<TextBlock/>
+								<TextBlock/>
+							</StackPanel>
+						</Grid>
+					</Panel>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+	</Grid>
+</Window>

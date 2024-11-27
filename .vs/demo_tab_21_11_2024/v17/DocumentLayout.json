@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43FE3652-D193-401E-8DB7-CA887C4FA5E3}|demo_tab_21_11_2024.csproj|C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\cartwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{43FE3652-D193-401E-8DB7-CA887C4FA5E3}|demo_tab_21_11_2024.csproj|solutionrelative:cartwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FE3652-D193-401E-8DB7-CA887C4FA5E3}|demo_tab_21_11_2024.csproj|c:\\users\\prdb\\desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\cartwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FE3652-D193-401E-8DB7-CA887C4FA5E3}|demo_tab_21_11_2024.csproj|solutionrelative:cartwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FE3652-D193-401E-8DB7-CA887C4FA5E3}|demo_tab_21_11_2024.csproj|C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FE3652-D193-401E-8DB7-CA887C4FA5E3}|demo_tab_21_11_2024.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FE3652-D193-401E-8DB7-CA887C4FA5E3}|demo_tab_21_11_2024.csproj|C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\listwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{43FE3652-D193-401E-8DB7-CA887C4FA5E3}|demo_tab_21_11_2024.csproj|solutionrelative:listwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FE3652-D193-401E-8DB7-CA887C4FA5E3}|demo_tab_21_11_2024.csproj|C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\listwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FE3652-D193-401E-8DB7-CA887C4FA5E3}|demo_tab_21_11_2024.csproj|solutionrelative:listwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FE3652-D193-401E-8DB7-CA887C4FA5E3}|demo_tab_21_11_2024.csproj|C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FE3652-D193-401E-8DB7-CA887C4FA5E3}|demo_tab_21_11_2024.csproj|solutionrelative:models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FE3652-D193-401E-8DB7-CA887C4FA5E3}|demo_tab_21_11_2024.csproj|C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FE3652-D193-401E-8DB7-CA887C4FA5E3}|demo_tab_21_11_2024.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 221,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\CartWindow.axaml",
+              "RelativeDocumentMoniker": "CartWindow.axaml",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\CartWindow.axaml",
+              "RelativeToolTip": "CartWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T06:12:57.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\CartWindow.axaml.cs",
+              "RelativeDocumentMoniker": "CartWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\CartWindow.axaml.cs",
+              "RelativeToolTip": "CartWindow.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:12:58.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\ListWindow.axaml",
+              "RelativeDocumentMoniker": "ListWindow.axaml",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\ListWindow.axaml",
+              "RelativeToolTip": "ListWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T08:26:07.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\ListWindow.axaml.cs",
+              "RelativeDocumentMoniker": "ListWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\ListWindow.axaml.cs",
+              "RelativeToolTip": "ListWindow.axaml.cs",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAAALEAAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:22:21.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:12:29.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderProduct.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\Models\\OrderProduct.cs",
+              "RelativeDocumentMoniker": "Models\\OrderProduct.cs",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\Models\\OrderProduct.cs",
+              "RelativeToolTip": "Models\\OrderProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:23:38.876Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "e63c1658-7d67-4dd3-afec-f442410b1b59",
+        "Display": 0,
+        "X": 39,
+        "Y": 189,
+        "Width": 1693,
+        "Height": 733,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\demo_tab_21_11\\demo_tab_21_11_2024\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowCgAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:12:08.928Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<Window 
+	xmlns="https://github.com/avaloniaui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+	x:Class="demo_tab_21_11_2024.AddWindow"
+	Title="AddWindow"
+	x:CompileBindings="False">
+	
+	<Grid
+		ShowGridLines="True"
+		ColumnDefinitions="*,*,*"
+		Name="grid_addwindow">
+		<StackPanel
+			Grid.Column="1">
+			<TextBlock
+				Text="{Binding Id}"/>
+			<TextBox
+				Text="{Binding Articul}"
+				Watermark="Артикул"/>
+			<TextBox
+				Text="{Binding Name}"
+				Watermark="Название"/>
+			<TextBox
+				Text="{Binding ActualDiscount}"
+				Watermark="Скидка"/>
+			<TextBox
+				Text="{Binding Cost}"
+				Watermark="Цена"/>
+			
+		</StackPanel>
+		<Button
+			VerticalAlignment="Bottom"
+			Name="btn_return"
+			Content="Назад"
+			Background="rgb(73, 140,81)"
+			Click="Return"/>
+		<Button
+			VerticalAlignment="Bottom"
+			HorizontalAlignment="Center"
+			Grid.ColumnSpan="3"
+			Name="btn_delete"
+			Content="Удалить"
+			Background="rgb(73, 140,81)"
+			Click="Deletion"/>
+		<Button
+			VerticalAlignment="Bottom"
+			HorizontalAlignment="Right"
+			Grid.ColumnSpan="3"
+			Name="btn_add"
+			Content="Добавить"
+			Background="rgb(73, 140,81)"
+			Click="Return"/>
+		
+	</Grid>
+</Window>
